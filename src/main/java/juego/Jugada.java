@@ -8,6 +8,18 @@ public class Jugada {
     public static final String PERDISTE = "¡Perdiste!";
     public static final String EMPATE = "¡Es un empate!";
 
+    /*
+    public String jugar(@org.jetbrains.annotations.UnknownNullability String eleccionUsuario, String eleccionComputadora) {
+        if(eleccionUsuario.empataCon(eleccionComputadora)){
+            return EMPATE;
+        }
+        if (eleccionUsuario.leGanaA(eleccionComputadora)){
+            return GANASTE;
+        }
+        return PERDISTE;
+    }
+    */
+
     public String jugar(String eleccionUsuario, String eleccionComputadora) {
         String resultado;
         if (eleccionUsuario.equals(eleccionComputadora)) {
@@ -21,4 +33,6 @@ public class Jugada {
         }
         return resultado;
     }
+
+
 }

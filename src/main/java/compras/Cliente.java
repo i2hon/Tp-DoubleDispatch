@@ -1,5 +1,6 @@
 package compras;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Cliente {
@@ -10,6 +11,7 @@ public class Cliente {
     public Cliente(String nombre, TipoCliente tipo) {
         this.nombre = nombre;
         this.tipo = tipo;
+        this.compra = new ArrayList<>();
     }
 
     public void agregarProducto(Producto producto) {

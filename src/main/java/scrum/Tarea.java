@@ -3,10 +3,10 @@ package scrum;
 public class Tarea implements ItemDeProyecto {
     public static final String VALIDA_TAREA_SIMPLE = "No puede crear una Epica o HS como tarea simple";
     private int horasEstimadas;
-    private TipoTarea tipoTarea;
+    private ItemDeProyecto tipoTarea;
 
-    public Tarea(int horasEstimadas, TipoTarea tipoTarea) {
-        if (tipoTarea.equals(TipoTarea.EPICA) || tipoTarea.equals(TipoTarea.HISTORIA_USUARIO)) {
+    public Tarea(int horasEstimadas, ItemDeProyecto tipoTarea) {
+        if(tipoTarea.puedoContenerA(new Spike())||tipoTarea.puedoContenerA(new TareaDesarrollo())){
             throw new RuntimeException(VALIDA_TAREA_SIMPLE);
         }
         this.horasEstimadas = horasEstimadas;
@@ -20,6 +20,26 @@ public class Tarea implements ItemDeProyecto {
 
     @Override
     public TipoTarea tipoTarea() {
-        return tipoTarea;
+        return tipoTarea.tipoTarea();
+    }
+
+    @Override
+    public boolean esTipoComplejo() {
+        return false;
+    }
+
+    @Override
+    public boolean puedoContenerA(ItemDeProyecto tarea) {
+        return false;
+    }
+
+    @Override
+    public boolean contenidaPorHistoriaUsuario() {
+        return tipoTarea.contenidaPorHistoriaUsuario();
+    }
+
+    @Override
+    public boolean contenidaPorEpica() {
+        return tipoTarea.contenidaPorEpica();
     }
 }

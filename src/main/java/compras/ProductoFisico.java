@@ -4,7 +4,7 @@ public class ProductoFisico implements Producto {
     private float precio;
     private float iva;
     private String nombre;
-    private int peso;
+    private float peso;
 
     public ProductoFisico(String nombre, float precio, int peso) {
         this.precio = precio;
@@ -14,21 +14,21 @@ public class ProductoFisico implements Producto {
     }
 
     @Override
+    public float impuesto(TipoCliente cliente) {
+        return precio * iva;
+    }
+
+    @Override
+    public float enviarA(TipoCliente cliente) {
+        return cliente.envioFisico(this);
+    }
+
+    @Override
     public float precio() {
         return precio;
     }
 
-    @Override
-    public float costoEnvio(TipoCliente tipo) {
-        var costo = this.precio * peso;
-        if (tipo.equals(TipoCliente.CORPORATIVO)) {
-            return costo - (costo * 0.5f);
-        }
-        return costo;
-    }
-
-    @Override
-    public float impuesto(TipoCliente tipo) {
-        return this.precio * iva;
+    public float peso() {
+        return peso;
     }
 }

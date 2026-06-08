@@ -5,3 +5,5 @@ public enum Cargo {
     MANDOMEDIO,
     JUNIOR;
 }
+
+

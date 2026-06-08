@@ -5,11 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d582e806-a210-4a49-935b-752eed3ec0e0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ejercicio5/Deteriorado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ejercicio5/Disco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ejercicio5/Estado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ejercicio5/Libro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ejercicio5/Nuevo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ejercicio5/Revista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ejercicio5/TipoArticulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ejercicio5/Usado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/compras/Corporativo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/compras/Regular.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/juego/ElementoDeJuego.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/juego/Papel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/juego/Piedra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/juego/Tijera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/laserX/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/laserX/MandoMedio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scrum/Epica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scrum/HistoriaUsuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scrum/Spike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scrum/TareaDesarrollo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/compras/CarritoCompras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/compras/CarritoCompras.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/compras/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/compras/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/compras/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/compras/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/compras/ProductoFisico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/compras/ProductoFisico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/compras/ServicioDigital.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/compras/ServicioDigital.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/compras/TipoCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/compras/TipoCliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/juego/Jugada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/juego/Jugada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/laserX/Cargo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/laserX/Cargo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/laserX/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/laserX/Empleado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/laserX/EmpleadoJerarquico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/laserX/EmpleadoJerarquico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/laserX/EmpleadoRegular.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/laserX/EmpleadoRegular.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/laserX/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/laserX/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrum/ItemDeProyecto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scrum/ItemDeProyecto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrum/Tarea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scrum/Tarea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrum/TareaCompleja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scrum/TareaCompleja.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrum/TipoTarea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scrum/TipoTarea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/compras/CarritoComprasTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/compras/CarritoComprasTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/laserx/EmpleadoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/laserx/EmpleadoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/scrum/ProyectoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scrum/ProyectoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,24 +56,32 @@
       <entry key="_/home/enrique/workspaces/oop2-ejercicios-doubledispatch/src/main" value="3BIxyrKXuXuArkcQyUU9JSLhHNG" />
     </persistenceIdMap>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "enriquemolinari"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;enriquemolinari&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/enriquemolinari/oop2-ejercicios-doubledispatch",
-    "accountId": "f0dfc563-11d8-4aa4-8887-77f436becec6"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/enriquemolinari/oop2-ejercicios-doubledispatch.git&quot;,
+    &quot;accountId&quot;: &quot;4797d39c-e275-4e5c-9f5d-f6a97c8c5bf6&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="3BIxyrKXuXuArkcQyUU9JSLhHNG" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
@@ -47,6 +90,20 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.laserX.Main.executor": "Run",
+    "JUnit.CarritoComprasTest.executor": "Run",
+    "JUnit.CarritoComprasTest.testClienteRegular.executor": "Run",
+    "JUnit.EmpleadoTest.calculoSalarial.executor": "Run",
+    "JUnit.JugadaTest.executor": "Run",
+    "JUnit.ProyectoTest.epicaNoPuedeContenerTareaDesarrollo.executor": "Run",
+    "JUnit.ProyectoTest.executor": "Run",
+    "JUnit.ProyectoTest.hitoriaNoPuedeContenerAHistoria.executor": "Run",
+    "JUnit.ProyectoTest.hitoriaNoPuedeContenerASpike.executor": "Run",
+    "JUnit.ProyectoTest.noPuedoCrearUnSpikeComoTareaCompleja.executor": "Run",
+    "JUnit.ProyectoTest.noPuedoCrearUnaEpicaComoTareaSimple.executor": "Run",
+    "JUnit.ProyectoTest.noPuedoCrearUnaHSComoTareaSimple.executor": "Run",
+    "JUnit.empleadoTest.calculoSalarial.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -58,7 +115,84 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ProyectoTest">
+    <configuration name="CarritoComprasTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oop2-ejercicios-double-dispatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="compras.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="compras" />
+      <option name="MAIN_CLASS_NAME" value="compras.CarritoComprasTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarritoComprasTest.testClienteRegular" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oop2-ejercicios-double-dispatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="compras.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="compras" />
+      <option name="MAIN_CLASS_NAME" value="compras.CarritoComprasTest" />
+      <option name="METHOD_NAME" value="testClienteRegular" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmpleadoTest.calculoSalarial" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oop2-ejercicios-double-dispatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="laserx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="laserx" />
+      <option name="MAIN_CLASS_NAME" value="laserx.EmpleadoTest" />
+      <option name="METHOD_NAME" value="calculoSalarial" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JugadaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oop2-ejercicios-double-dispatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="juego.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="juego" />
+      <option name="MAIN_CLASS_NAME" value="juego.JugadaTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProyectoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oop2-ejercicios-double-dispatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scrum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="scrum" />
+      <option name="MAIN_CLASS_NAME" value="scrum.ProyectoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="main" />
       <method v="2">
@@ -70,6 +204,15 @@
       <option name="filePath" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ProyectoTest" />
+        <item itemvalue="JUnit.JugadaTest" />
+        <item itemvalue="JUnit.CarritoComprasTest" />
+        <item itemvalue="JUnit.CarritoComprasTest.testClienteRegular" />
+        <item itemvalue="JUnit.EmpleadoTest.calculoSalarial" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>

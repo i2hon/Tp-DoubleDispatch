@@ -1,17 +1,25 @@
 package laserx;
 
-public class EmpleadoTest {
+import laserX.*;
+import org.junit.jupiter.api.Test;
 
-//    @Test
-//    public void calculoSalarial() {
-//        var director = new EmpleadoJerarquico("director", 1500, new Director());
-//        var mandoMedio = new EmpleadoJerarquico("mandoMedio", 500, new MandoMedio());
-//        var empleadoRegular = new EmpleadoRegular("empleadoRegular", 100);
-//        director.agregarEmpleado(mandoMedio);
-//        mandoMedio.agregarEmpleado(empleadoRegular);
-//        var laserX = new LaserX(director);
-//        assertEquals(2100, laserX.masaSalarial());
-//    }
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+public class EmpleadoTest {
+/*
+    @Test
+    public void calculoSalarial() {
+        var director = new EmpleadoJerarquico("director", 1500, new Director());
+        var mandoMedio = new EmpleadoJerarquico("mandoMedio", 500, new MandoMedio());
+        var empleadoRegular = new EmpleadoRegular("empleadoRegular", 100);
+        director.agregarEmpleado(mandoMedio);
+        mandoMedio.agregarEmpleado(empleadoRegular);
+        assertEquals(2100, new LaserX(director).masaSalarial());
+   }
+
+
+ */
+
 //
 //
 //    @Test
