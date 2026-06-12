@@ -1,5 +1,6 @@
 package juego;
 
+import java.util.Map;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -8,6 +9,9 @@ public class Juego {
     private String[] opciones = {"piedra", "papel", "tijera"};
     // Crear un objeto Scanner para leer la entrada del usuario
     private Scanner scanner = new Scanner(System.in);
+    private Map<String, ElementoDeJuego> map = Map.of("piedra", new Piedra(),
+            "tijera", new Tijera(),
+            "papel", new Papel());
 
     public void iniciar() {
         boolean continuar = true;
@@ -20,7 +24,7 @@ public class Juego {
             System.out.println("Elección de la computadora: " + eleccionComputadora);
 
             // Mostrar el resultado
-            System.out.println(new Jugada().jugar(eleccionUsuario, eleccionComputadora));
+            System.out.println(new Jugada().jugar(map.get(eleccionUsuario) , map.get(eleccionComputadora)));
 
             continuar = preguntarSiQueremosContinuar();
         }// end while

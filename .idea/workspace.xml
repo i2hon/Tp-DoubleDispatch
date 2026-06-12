@@ -4,47 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d582e806-a210-4a49-935b-752eed3ec0e0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Ejercicio5/Deteriorado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Ejercicio5/Disco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Ejercicio5/Estado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Ejercicio5/Libro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Ejercicio5/Nuevo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Ejercicio5/Revista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Ejercicio5/TipoArticulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Ejercicio5/Usado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/compras/Corporativo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/compras/Regular.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/juego/ElementoDeJuego.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/juego/Papel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/juego/Piedra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/juego/Tijera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/laserX/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/laserX/MandoMedio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/scrum/Epica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/scrum/HistoriaUsuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/scrum/Spike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/scrum/TareaDesarrollo.java" afterDir="false" />
+    <list default="true" id="d582e806-a210-4a49-935b-752eed3ec0e0" name="Changes" comment="Tp-Double Dispatch">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/compras/CarritoCompras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/compras/CarritoCompras.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/compras/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/compras/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/compras/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/compras/Producto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/compras/ProductoFisico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/compras/ProductoFisico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/compras/ServicioDigital.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/compras/ServicioDigital.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/compras/TipoCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/compras/TipoCliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/juego/Juego.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/juego/Juego.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/juego/Jugada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/juego/Jugada.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/laserX/Cargo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/laserX/Cargo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/laserX/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/laserX/Empleado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/laserX/EmpleadoJerarquico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/laserX/EmpleadoJerarquico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/laserX/EmpleadoRegular.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/laserX/EmpleadoRegular.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/laserX/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/laserX/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scrum/ItemDeProyecto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scrum/ItemDeProyecto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scrum/Tarea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scrum/Tarea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scrum/TareaCompleja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scrum/TareaCompleja.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scrum/TipoTarea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scrum/TipoTarea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/compras/CarritoComprasTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/compras/CarritoComprasTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/laserx/EmpleadoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/laserx/EmpleadoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/scrum/ProyectoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scrum/ProyectoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,34 +51,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.laserX.Main.executor": "Run",
-    "JUnit.CarritoComprasTest.executor": "Run",
-    "JUnit.CarritoComprasTest.testClienteRegular.executor": "Run",
-    "JUnit.EmpleadoTest.calculoSalarial.executor": "Run",
-    "JUnit.JugadaTest.executor": "Run",
-    "JUnit.ProyectoTest.epicaNoPuedeContenerTareaDesarrollo.executor": "Run",
-    "JUnit.ProyectoTest.executor": "Run",
-    "JUnit.ProyectoTest.hitoriaNoPuedeContenerAHistoria.executor": "Run",
-    "JUnit.ProyectoTest.hitoriaNoPuedeContenerASpike.executor": "Run",
-    "JUnit.ProyectoTest.noPuedoCrearUnSpikeComoTareaCompleja.executor": "Run",
-    "JUnit.ProyectoTest.noPuedoCrearUnaEpicaComoTareaSimple.executor": "Run",
-    "JUnit.ProyectoTest.noPuedoCrearUnaHSComoTareaSimple.executor": "Run",
-    "JUnit.empleadoTest.calculoSalarial.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.laserX.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CarritoComprasTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CarritoComprasTest.testClienteRegular.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EmpleadoTest.calculoSalarial.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JugadaTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProyectoTest.epicaNoPuedeContenerTareaDesarrollo.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProyectoTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProyectoTest.hitoriaNoPuedeContenerAHistoria.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProyectoTest.hitoriaNoPuedeContenerASpike.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProyectoTest.noPuedoCrearUnSpikeComoTareaCompleja.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProyectoTest.noPuedoCrearUnaEpicaComoTareaSimple.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProyectoTest.noPuedoCrearUnaHSComoTareaSimple.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.empleadoTest.calculoSalarial.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.ProyectoTest">
+}</component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="juego.Main" />
+      <module name="oop2-ejercicios-double-dispatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="juego.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CarritoComprasTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oop2-ejercicios-double-dispatch" />
       <extension name="coverage">
@@ -142,22 +118,6 @@
       <option name="PACKAGE_NAME" value="compras" />
       <option name="MAIN_CLASS_NAME" value="compras.CarritoComprasTest" />
       <option name="METHOD_NAME" value="testClienteRegular" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EmpleadoTest.calculoSalarial" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="oop2-ejercicios-double-dispatch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="laserx.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="laserx" />
-      <option name="MAIN_CLASS_NAME" value="laserx.EmpleadoTest" />
-      <option name="METHOD_NAME" value="calculoSalarial" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -206,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ProyectoTest" />
         <item itemvalue="JUnit.JugadaTest" />
         <item itemvalue="JUnit.CarritoComprasTest" />
         <item itemvalue="JUnit.CarritoComprasTest.testClienteRegular" />
-        <item itemvalue="JUnit.EmpleadoTest.calculoSalarial" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +189,20 @@
       <option name="presentableId" value="Default" />
       <updated>1774190645995</updated>
     </task>
+    <task id="LOCAL-00001" summary="Tp-Double Dispatch">
+      <option name="closed" value="true" />
+      <created>1780962687018</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1780962687018</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Tp-Double Dispatch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tp-Double Dispatch" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
